@@ -1,0 +1,7 @@
+Live Server
+
+Material Icon Theme
+
+vscode-styled-components
+
+Color Highlight

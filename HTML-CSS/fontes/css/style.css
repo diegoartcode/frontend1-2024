@@ -1,0 +1,35 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f00;
+
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap');
+
+
+h2 {
+    font-family: "Playwrite US Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+@font-face{
+    font-family: minhaFonte;
+    src: url('../fonts/PlaywriteNZ-VariableFont_wght.ttf');
+}
+
+h3{
+    font-family: "minhaFonte", cursive;
+font-optical-sizing: auto;
+font-weight: 300;
+font-style: normal;
+}
+

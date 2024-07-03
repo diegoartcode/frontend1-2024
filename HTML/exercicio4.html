@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+    <style>
+        /* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }*/
+
+        /* Ajustes específicos para listas */
+        ul,
+        ol {
+            margin: 1em 0;
+            /* Ajuste as margens conforme necessário */
+            padding-left: 1.5em;
+            /* Ajuste o espaçamento para os marcadores conforme necessário */
+        }
+
+        li {
+            margin-bottom: 0.5em;
+            /* Ajuste o espaçamento entre os itens conforme necessário */
+        }
+
+        nav {
+            background-color: crimson;
+            padding: 25px;
+        }
+
+        nav ul li {
+            display: inline;
+            padding: 20px;
+        }
+
+        nav ul {
+            text-align: center;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .container {
+            width: 80%;
+            margin: 100px auto;
+        }
+
+
+        /* tabela */
+
+
+        table {
+
+            border-collapse: collapse;
+
+        }
+
+        th,
+        td {
+            border: 1px solid #000;
+            padding-left: 8px;
+            text-align: left;
+
+        }
+
+        img {
+            width: 60%;
+        }
+
+        hr {
+            /* border: 2px dotted black; */
+            border-top: 2px dashed black;
+        }
+
+        #corte {
+            text-align: right;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="exercicio1.html">Exercício 1</a></li>
+            <li><a href="exercicio2.html">Exercício 2</a></li>
+            <li><a href="exercicio3.html">Exercício 3</a></li>
+            <li><a href="exercicio4.html">Exercício 4</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+        <table>
+            <tr>
+                <th colspan="10">
+                    <p>Local de pagamento</p>
+                    <p>PAGÁVEL PREFERENCIALMENTE NAS AGÊNCIAS DO BANCO X</p>
+                </th>
+                <th>
+                    <p>Vencimento</p>
+                    <p>29/06/2024</p>
+                </th>
+            </tr>
+
+            <tr>
+                <td colspan="10">
+                    <p>Beneficiario</p>
+                    <p>Banco X Ltda.</p>
+                </td>
+                <td>
+                    <p>Agéncia/Código Bancario</p>
+                    <p>123456</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p>Data do documento</p>
+                    <p>28/06/2024</p>
+                </td>
+                <td colspan="2">
+                    <p>Especie doc</p>
+                    <p>xxx</p>
+                </td>
+                <td colspan="1">
+                    <p>Aceite</p>
+                    <p>N</p>
+                </td>
+                <td colspan="4">
+                    <p>Data processamento</p>
+                    <p>28/06/2024</p>
+                </td>
+                <td>
+                    <p>Título</p>
+                    <p>xxxx</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3">
+                    <p>Título</p>
+                    <p>xxxx</p>
+                </td>
+                <td colspan="1">
+                    <p>Título</p>
+                    <p>xxxx</p>
+                </td>
+                <td colspan="1">
+                    <p>Título</p>
+                    <p>xxxx</p>
+                </td>
+                <td colspan="4">
+                    <p>Título</p>
+                    <p>xxxx</p>
+                </td>
+                <td colspan="1">
+                    <p>Título</p>
+                    <p>xxxx</p>
+                </td>
+
+                <td>
+                    <p>Título</p>
+                    <p>xxxx</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="10" rowspan="5">
+                    <ul>
+                        <li>Item</li>
+                        <li>Item</li>
+                        <li>Item</li>
+                        <li>Item</li>
+                        <li>Item</li>
+                        <li>Item</li>
+                    </ul>
+                </td>
+
+
+                <td>
+                    <p>Título</p>
+                    <p>xxxx</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p>Título</p>
+                    <p>xxxx</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Título</p>
+                    <p>xxxx</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Título</p>
+                    <p>xxxx</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Título</p>
+                    <p>xxxx</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="10">
+                    <p>Título</p>
+                    <img src="assets/imagem/codigo-barras.png" alt="">
+                </td>
+                <td>
+                    <p>Título</p>
+                    <p>xxxx</p>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+    <div class="container">
+        <p id="corte">Corte na linha pontilhada.</p>
+        <hr>
+    </div>
+
+</body>
+
+</html>

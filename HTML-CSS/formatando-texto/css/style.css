@@ -1,0 +1,102 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f00;
+
+    /* 1 EM = 16 PX = 100%*/
+
+    /* font-size: 16px; */
+    /* font-size: 1em; */
+    /* font-size: 100%; */
+
+    font-size: 160%;
+    font-size: 1.6em;
+    font-size: 26px;
+
+    /* 16+160% =25,6*/
+
+    /* 16+60% = 9,6
+    16+9,6 = 25,6 */
+
+
+    /* espaço entre linha */
+
+    /* line-height: 3; */
+
+    /* text-indent */
+
+    /* text-indent: 2em; */
+
+    /* decorar texto */
+
+    /* text-decoration: underline; */
+
+    /* text-decoration: overline; */
+
+    /* text-decoration: line-through; */
+
+    /* text-decoration: none; */
+
+
+    /* Transformando texto */
+
+    /* primeiras letras maiusculas */
+    /* text-transform: capitalize; */
+
+    /* text-transform: lowercase; */
+
+    /* text-transform: uppercase; */
+
+    /* espaçamento entre letras e palavras */
+
+    /* espaço entre letras */
+    letter-spacing: -0.1em;
+
+    /* espaço entre palavras */
+    word-spacing: 6em;
+  
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+
+    /* Alinhando texto */
+
+    /* text-align: center;
+    text-align: left;
+    text-align: right ;
+    text-align: justify 
+    */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap');
+
+
+h2 {
+    font-family: "Playwrite US Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+
+   
+}
+
+@font-face{
+    font-family: minhaFonte;
+    src: url('../fonts/PlaywriteNZ-VariableFont_wght.ttf');
+}
+
+h3{
+    font-family: "minhaFonte", cursive;
+font-optical-sizing: auto;
+font-weight: 300;
+font-style: normal;
+}
+

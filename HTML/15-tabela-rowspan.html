@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Rowspan</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Detalhes</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Diego </td> <!-- Esta célula abrange 2 linhas -->
+            <td>Telefone: 11 99999-9999</td>
+        </tr>
+        <tr>
+            <td>Ocupação: Desenvolvedor web</td>
+        </tr>
+        <tr>
+            <td>Jhenny</td>
+            <td>Telefone: 11 99999-9999, Ocupação: Designer</td>
+        </tr>
+    </table>
+</body>
+</html>

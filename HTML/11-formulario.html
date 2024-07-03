@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        form fieldset {
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            margin: 0 auto;
+            gap: 15px;
+            text-align: center;
+        }
+
+        input,
+        select,
+        textarea {
+            font-size: 22px;
+            color: red;
+            text-align: left;
+        }
+
+        input[type="submit"], input[type="reset"]{
+            text-align: center;
+            color: #000;
+        }
+
+        label {
+            text-align: left;
+            
+        }
+
+
+        /*form input[type=email], form select, form textarea {
+            font-size: 22px;
+        }*/
+    </style>
+</head>
+
+<body>
+
+    <h1>Formulário</h1>
+
+    <form action="" method="">
+        <fieldset>
+            <legend>Formulário</legend>
+
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" required>
+
+            <label for="idade">Idade</label>
+            <input type="number" id="idade">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email">
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha">
+
+            <label for="opcoes">Opções</label>
+            <select name="" id="opcoes">
+                <option value="">Selecione</option>
+                <option value="opcao1">Opção 1</option>
+                <option value="opcao2">Opção 2</option>
+                <option value="opcao3">Opção 3</option>
+                <option value="opcao4">Opção 4</option>
+            </select>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="" id="mensagem" cols="30" rows="10"></textarea>
+
+            <label for="">Escolha uma ou mais linguagem</label>
+
+            <label for="item1"><input type="checkbox" name="" id="item1"> Item 1</label>
+
+            <label for="item2"><input type="checkbox" name="" id="item2"> Item 2</label>
+
+            <label for="item3"><input type="checkbox" name="" id="item3"> Item 3</label>
+
+            <label for="item4"><input type="checkbox" name="" id="item4"> Item 4</label>
+
+
+
+            <label for="">O que voce esta estudando hoje</label>
+
+            <label for="opcao1"><input type="radio" name="opcaoRadio" id="opcao1"> Opção 1</label>
+            <label for="opcao2"><input type="radio" name="opcaoRadio" id="opcao2"> Opção 2</label>
+            <label for="opcao3"><input type="radio" name="opcaoRadio" id="opcao3"> Opção 3</label>
+
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </fieldset>
+    </form>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #medalhas th{
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        #medalhas td {
+            /*background-color: #ccc;*/
+            padding: 10px;
+            text-align: center;
+        }
+
+        #medalhas tfoot td{
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /*#medalhas tbody tr:nth-child(odd){
+            background-color: rgb(184, 184, 175);
+        }*/
+        #medalhas tbody tr:nth-child(even){
+            background-color: rgb(244, 244, 177);
+        }
+        #medalhas caption {
+            background: #fd8a50;
+            padding: 10px;
+            text-transform: uppercase;
+        }
+
+        .coluna1{
+            background-color: #f0f0f0;
+        }
+        .coluna2{
+            background-color: #e59c9c;
+        }
+
+        .coluna4{
+            background-color: red;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <table id="medalhas">
+        <caption>Medalhas</caption>
+        <colgroup>
+            <col class="coluna1">
+            <col class="coluna2">
+            <col>
+            <col class="coluna4">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>País</th>
+                <th>Ouro</th>
+                <th>Prata</th>
+                <th>Bronze</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td>País</td>
+                <td>Ouro</td>
+                <td>Prata</td>
+                <td>Bronze</td>
+                <td>Total</td>
+            </tr>
+        </tfoot>
+
+        <tbody>
+            <tr>
+                <td>Brasil</td>
+                <td>100</td>
+                <td>130</td>
+                <td>200</td>
+                <td>430</td>
+            </tr>
+            <tr>
+                <td>USA</td>
+                <td>90</td>
+                <td>110</td>
+                <td>210</td>
+                <td>420</td>
+            </tr>
+            <tr>
+                <td>China</td>
+                <td>89</td>
+                <td>100</td>
+                <td>100</td>
+                <td>289</td>
+            </tr>
+            <tr>
+                <td>Japão</td>
+                <td>89</td>
+                <td>100</td>
+                <td>100</td>
+                <td>289</td>
+            </tr>
+            <tr>
+                <td>China</td>
+                <td>89</td>
+                <td>100</td>
+                <td>100</td>
+                <td>289</td>
+            </tr>
+            <tr>
+                <td>Japão</td>
+                <td>89</td>
+                <td>100</td>
+                <td>100</td>
+                <td>289</td>
+            </tr>
+        </tbody>
+
+      
+
+
+
+
+    </table>
+
+
+</body>
+
+</html>
