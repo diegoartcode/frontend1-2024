@@ -1,0 +1,23 @@
+div{
+    margin: 50px;
+    padding: 50px;
+}
+
+.box1{
+    background: linear-gradient(to bottom, blue, red,yellow,pink) ;
+    /* 
+
+    Primeiro parametro - ponto inicial
+    Segundo parametro - cor inicial
+    Terceiro patametro - cor final    
+    
+    */
+}
+
+.box2{
+    background: linear-gradient(60deg, blue,red, blue);
+}
+
+.box3{
+    background: linear-gradient(60deg,blue 70%,red );
+}

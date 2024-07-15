@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#principal {
+    background: #999;
+}
+
+.box1 {
+    background: red;
+    /* width: 33.33%; */
+    width: 50%;
+    float: left;
+}
+
+.box2 {
+    width: 50%;
+   
+    background: green;
+    /* width: 33.33%; */
+    float: left;
+}
+
+.box3 {
+    background: blue;
+    width: 33.33%;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}

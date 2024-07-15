@@ -1,0 +1,25 @@
+div{
+    /* border: 1px solid black; */
+    margin: 30px;
+    padding: 30px;
+    box-shadow: 10px 10px 15px #999;
+    /* box-shadow: inset 10px 10px 15px #999; */
+
+    /* Primeiro parametro - sombra lateral */
+    /* Segundo parametro - sombra (baixo ou cima) */
+    /* Terceiro Parametro - Blur (intensidade das bordas */
+    /* Quarto parametro - cor da sobra */
+
+    /* -webkit-box-shadow: 179px 11px 9px 7px rgba(0,0,0,0.39);
+    -moz-box-shadow: 179px 11px 9px 7px rgba(0,0,0,0.39);
+    box-shadow: 179px 11px 9px 7px rgba(0,0,0,0.39); */
+
+
+    /* Gerador de sombra css 
+    https://www.cssmatic.com/box-shadow
+    */
+}
+
+div:hover{
+    box-shadow: 10px 10px 30px #999;
+}

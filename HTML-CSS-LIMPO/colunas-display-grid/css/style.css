@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#principal{
+    background: #ccc;
+    display: grid;
+    /* grid-template-columns: 30% 30% 40%; */
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    grid-template-columns: repeat(3, 1fr)  ;
+    /* gap: 10px; */
+    row-gap: 5px;
+    column-gap: 10px;
+}
+
+.box1{background-color: aqua;}
+.box2{background-color: rgb(22, 249, 6);}
+.box3{background-color: rgb(61, 4, 249);}

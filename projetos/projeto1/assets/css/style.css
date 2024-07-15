@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: aqua;
+    height: 60px;
+    line-height: 60px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 1em;
+}
+
+header a {
+    color: #000;
+}
+
+header h2 {
+    font-size: 30px;
+}
+
+#banner {
+    background-image: url('../img/montanha.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#sobre,
+#galeria,
+#contato {
+    margin: 80px 0;
+}
+
+
+.col-float-4 {
+    /* border: 1px solid #000; */
+    width: 25%;
+    float: left;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.col-float-4 div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 20px 0 20px 0;
+}
+
+
+.col-float-4 p {
+    padding: 15px 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.col-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex: 1 1 25%;
+
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 25%; */
+
+    /* border: 1px solid #000; */
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#aviso {
+    background-color: #999;
+}
+
+#aviso .container {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn{
+    /* background-color: rgba(255, 0, 0, 0); */
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: rgb(43,70,226);
+    border: 1px solid rgb(43,70,226);
+}
+
+.btn:hover{
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: aqua;
+}
+
+.col-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 100px;
+    
+}
+
+#contato form label{
+    font-size: 20px;
+    margin: 15px 0 5px 0;
+    width: 100%;
+    display: block;
+    padding-left:15px ;
+}
+
+#contato form input{
+    width: 100%;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right : 15px ;
+    color: #757575;
+    border: 1px solid rgb(43,70,226);
+    border-radius: 25px;
+    height: 40px;
+
+}
+
+
+
+
+
+
+
+
+

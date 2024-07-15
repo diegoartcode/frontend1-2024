@@ -1,0 +1,7 @@
+#principal{
+    width: 50%;
+    height: 200px;
+    padding: 20px;
+    background: #999;
+    overflow: auto;
+}
